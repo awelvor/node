@@ -1,4 +1,4 @@
-name: Test and upload documentation to artifacts - v2
+name: Test and upload documentation to artifacts - v2 -v3
 
 on:
   pull_request:
