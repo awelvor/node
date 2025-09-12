@@ -34,6 +34,7 @@ jobs:
       - name: Environment Information
         run: npx envinfo
       - run: "echo hello world"
+      - run: node -v
       - name: Build
         run: NODE=$(command -v node) make doc-only
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02  # v4.6.2
